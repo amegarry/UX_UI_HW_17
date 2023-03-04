@@ -1,23 +1,32 @@
+/*Display all elements with class "inline-block" as inline-block*/
 .inline-block {
-  display: inline-block;
-  vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
-div.logo {
+/*Logo container*/
+.logo {
     width: 23%;
     padding: 1%;
     text-align: center;
 }
 
+/*Navbar*/
 nav {
     width: 73%;
     padding: 1%;
+    float: right;
+    background-color: bisque;
 }
 
-
-header ul {
+/*Navbar content*/
+nav ul {
     width: 50%;
     margin-left: auto;
+}
+
+nav li{
+    padding: 0 10px 0 20px;
 }
 
 .heroImg {
@@ -30,13 +39,20 @@ header ul {
     margin: 0 auto;
 }
 
+/*Footer nav*/
 footer {
     background-color: #373738;
+    padding: 1%;
+    padding-left: 40%;
+    color: white;
 }
 
+/*Footer nav content*/
 footer ul {
     display: inline-block;
     vertical-align: top;
-    text-align: center;
-    color: white;
+}
+
+footer li {
+    padding: 0 10px 0 20px;
 }
